@@ -42,4 +42,4 @@ for row_number, supplier in enumerate(suppliers, start=2):
         print(f"Negative spend: {supplier_name}, {spend}")
 
 print("\nData quality validation completed.")
-
+# Next improvement: export validation issues to a CSV report
