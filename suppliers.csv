@@ -1,0 +1,5 @@
+supplier_id,supplier_name,category,spend
+S010,ABC Motors,Motors,20000
+,XYZ Components,Motors,15000
+S010,ABC Motors,Motors,20000
+S012,Delta Electrical,Electrical,-500
