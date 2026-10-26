@@ -2,7 +2,7 @@
 import csv
 
 # Input and output files
-input_file = "suppliers.csv"
+input_file = "suppliers_test.csv"
 output_file = "exceptions.csv"
 
 # Read supplier records
@@ -88,6 +88,7 @@ for row_number, supplier in enumerate(suppliers, start=2):
             "supplier_id": supplier_id,
             "supplier_name": supplier_name,
             "issue_type": issue_type,
+            "invalid_value":spend_value,
             "row_number": row_number
         })
 
@@ -112,6 +113,7 @@ fieldnames = [
     "supplier_id",
     "supplier_name",
     "issue_type",
+    "invalid_value",
     "row_number"
 ]
 
